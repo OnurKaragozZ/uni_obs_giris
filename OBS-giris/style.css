@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(arkaplanbeyaz.jpg);
+}
+.button-link {
+  text-decoration: none;
+}
+.eogrencicontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 650px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media (max-width: 767.98px) {
+  .eogrencicontainer {
+    display: block;
+  }
+  .eogrencibutton {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    margin-top: 5px;
+  }
+  .card {
+    width: 85%;
+  }
+}
+.footer {
+  margin-top: 50px;
+  width: 75%;
+  background-color: #eeedeb;
+  border-radius: 15px;
+  padding: 10px;
+}
+.footer-socil-media {
+  font-size: 25px;
+  padding: 5px;
+  cursor: pointer;
+}
+.footer-p {
+  font-size: 25px;
+  padding: 5px;
+}
